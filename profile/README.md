@@ -3,7 +3,7 @@
 [![](ubd-afsluiting-logo-pay-off-eng.png)](https://www.uu.nl/en/organisation/about-us/who-we-are)
 
 
-Welcome at **GitHub@UtrechtUniversity**! At [Utrecht University](https://uu.nl), we believe that with open minds, open attitudes and open science, we can create solutions that have a positive impact on us all. Nowadays, technology, data, and software are important cornerstones these solutions. This GitHub is our place where we, academic and administrative staff, develop and share research code, software, and others. You are invited to contribute to the projects and join forces to a better world. 
+Welcome at **GitHub@UtrechtUniversity**! At [Utrecht University](https://uu.nl), we believe that with open minds, open attitudes and open science, we can create solutions that have a positive impact on us all. Nowadays, technology, data, and software are important cornerstones of these solutions. This GitHub is our place where we, academic and administrative staff, develop and share research code, software, and others. You are invited to contribute to the projects and join forces to a better world. 
 
 
 The best way to find our projects is to browse this page or check out our hastag [#utrecht-university](https://github.com/topics/utrecht-university).
