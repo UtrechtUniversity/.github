@@ -25,7 +25,7 @@ Welcome at **GitHub@UtrechtUniversity**! At [Utrecht University](https://uu.nl),
 Every year, researchers at Utrecht University publish thousands of scientific results via various outlets. Research code and software is published on **GitHub@UtrechtUniversity** as well as other locations such as scientific repositories and personal GitHub accounts. To find interesting code and software published by Utrecht University, have a look at:
 
 - [GitHub@UtrechtUniversity](https://github.com/orgs/UtrechtUniversity/repositories) - A list of projects published on GitHub.com/UtrechtUniversity. 
-- [Awesome Utrecht University](https://github.com/utrechtuniversity/asesome-utrechtuniversity) - A curated list of "awesome" projects conducted at Utrecht University. 
+- [Awesome Utrecht University](https://github.com/UtrechtUniversity/awesome-utrecht-university) - A curated list of "awesome" projects conducted at Utrecht University. 
 - [GitHub topics](https://github.com/topics/utrecht-university) - Check out our GitHub topic [#utrecht-university](https://github.com/topics/utrecht-university)
 
 
