@@ -1,0 +1,38 @@
+name: "Update featured projects"
+on:
+  schedule:
+    - cron:  '42 6 1,15 * *'
+  push:
+    branches:
+      - master
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v2
+      - uses: actions/setup-python@v1
+        with:
+          python-version: '3.8'
+      - name: Install Python dependencies
+        run: |
+          pip install requests
+      - name: Parse https://github.com/UtrechtUniversity/awesome-utrecht-university
+        run: |
+          python scripts/parse_awesome.py
+      - name: Update README
+        run: |
+          python scripts/update_readme.py
+      - name: Commit files
+        run: |
+          git config --local user.email "github@uu.nl"
+          git config --local user.name "GitHub Utrecht University"
+          git add .
+          git commit -m "Update organisation README"
+        continue-on-error: true
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
