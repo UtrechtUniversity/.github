@@ -30,6 +30,8 @@ Every year, researchers at Utrecht University publish thousands of scientific re
 
 <!-- START FEATURED -->
 
+<p float="left"><a href="https://git.science.uu.nl/m.j.robeer/text_explainability"> <img src="/img/featured_1.svg" width="250" ></a><a href="https://github.com/nielsjdewinter/DA_model"> <img src="/img/featured_2.svg" width="250" ></a><a href="https://github.com/pcraster/pcraster"> <img src="/img/featured_3.svg" width="250" ></a></p>
+
 <!-- END FEATURED -->
 
 ### Contributing
