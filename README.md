@@ -1,3 +1,5 @@
-# Organisation repository of UtrechtUniversity
+# Organization repository of UtrechtUniversity
 
-See https://github.com/UtrechtUniversity/.github/tree/main/profile
+This repo defines the look and feel of the organization's account. 
+
+See https://github.com/UtrechtUniversity/.github/tree/main/profile for the content of the landing page. 
