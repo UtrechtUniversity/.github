@@ -21,9 +21,6 @@ jobs:
       - name: Parse https://github.com/UtrechtUniversity/awesome-utrecht-university
         run: |
           python scripts/parse_awesome.py
-      - name: Update README
-        run: |
-          python scripts/update_readme.py
       - name: Commit files
         run: |
           git config --local user.email "github@uu.nl"
