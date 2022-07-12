@@ -12,8 +12,12 @@ def select_projects(projects):
     return random.sample(projects, k=3)
 
 def get_repo_features(project):
-    git_org = re.search(r'git.*?/(.*?)/', project).group(1)
-    repo = re.search(r'git.*?/.*?/(.*?)\) ', project).group(1)
+    git_org = re.search(r'git.*?/(.*?)([) ]|[/])', project).group(1)
+    repo_name = re.search(r'git.*?/.*?/(.*?)\) ', project)
+    if repo_name is not None:
+        repo = repo_name.group(1)
+    else:
+        repo = git_org
     link = re.search(r'([A-Za-z0-9]+://.*?)\)', project).group(1)
     return git_org, repo, link
 
@@ -88,9 +92,9 @@ def main():
     
         git_org, repo, link = get_repo_features(item)
         url_list.append(str(link))
-
+        
         create_svg(idx, repo, git_org)
-
+        
     html_block = create_html(url_list)
 
     change_readme(html_block)
