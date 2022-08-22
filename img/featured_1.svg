@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="200 0 792.09 300"><defs><style>.c{letter-spacing:-.01em;}.d{letter-spacing:0em;}.e{letter-spacing:0em;}.f{letter-spacing:0em;}.g{letter-spacing:0em;}.h{letter-spacing:-.03em;}.i{letter-spacing:0em;}.j{fill:#ffcd00;stroke:#fff;stroke-miterlimit:10;}.k{fill:#fff;opacity:.21;}.l{letter-spacing:0em;}.m{font-size:87.42px;}.m,.n,.o{font-family:Arial;}.n{font-size:25.25px;}.o{font-size:16.2px;}</style></defs><rect id="b" class="j" x="265.09" y="12.82" width="526.5" height="274.36" rx="19.24" ry="19.24"/><ellipse class="k" cx="352.33" cy="254.42" rx="352.33" ry="254.42"/><text class="o" transform="translate(695.6 46.14)"><tspan class="h" x="0" y="0">Featured 1</tspan></text><text class="m" transform="translate(291.76 177.51)"><tspan x="0" y="0">stdstats</tspan></text><text class="n" transform="translate(291.76 221.47)"><tspan class="e" x="0" y="0">By japhir</tspan></text></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="a" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 601 281" style="enable-background:new 0 0 601 281;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFCD00;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st1{opacity:0.21;fill:#FFFFFF;enable-background:new    ;}
+	.st2{font-family:'ArialMT';}
+	.st3{font-size:16px;}
+	.st4{font-size:74px;}
+	.st5{font-size:24px;}
+</style>
+<path id="b" class="st0" d="M22.4,0.5h556.1c12.1,0,21.9,8.8,21.9,19.6v240.7c0,10.8-9.8,19.6-21.9,19.6H22.4
+	c-12.1,0-21.9-8.8-21.9-19.6V20.1C0.5,9.3,10.3,0.5,22.4,0.5z"/>
+<ellipse class="st1" cx="124.5" cy="244.9" rx="352.3" ry="254.4"/>
+<text transform="matrix(1 0 0 1 467.76 36.64)" class="st2 st3">Featured #1</text>
+<text transform="matrix(1 0 0 1 43.92 168.01)" class="st2 st4">oceanexplorer</text>
+<text transform="matrix(1 0 0 1 43.92 211.97)" class="st2 st5">UtrechtUniversity</text>
+</svg>

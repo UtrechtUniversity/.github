@@ -17,7 +17,7 @@ jobs:
           python-version: '3.8'
       - name: Install Python dependencies
         run: |
-          pip install requests
+          pip install requests jinja2
       - name: Parse https://github.com/UtrechtUniversity/awesome-utrecht-university
         run: |
           python scripts/parse_awesome.py
