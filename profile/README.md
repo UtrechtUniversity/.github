@@ -35,7 +35,8 @@ Every year, researchers at Utrecht University publish thousands of scientific re
 <!-- END FEATURED -->
 
 <details>
-	<summary>How can I have my project featured?</summary>
+	<summary align="center">These are featured projects. How can I have my project featured?</summary>
+	<br>
 	<ul>
 	<p>
 		Add you project to the <a href="https://github.com/UtrechtUniversity/awesome-utrecht-university">Awesome Utrecht University</a> list. Every 2 weeks, 3 random projects are selected and featured.
