@@ -27,7 +27,7 @@ Every year, researchers at Utrecht University publish thousands of scientific re
 - [GitHub@UtrechtUniversity](https://github.com/orgs/UtrechtUniversity/repositories) - A list of projects published on GitHub.com/UtrechtUniversity.
 - [Awesome Utrecht University](https://github.com/UtrechtUniversity/awesome-utrecht-university) - A curated list of "awesome" projects conducted at Utrecht University.
 - [GitHub topics](https://github.com/topics/utrecht-university) - Check out our GitHub topic [#utrecht-university](https://github.com/topics/utrecht-university)
-
+#### Featured projects this week
 <!-- START FEATURED -->
 
 <p align="center"><a href="https://github.com/UtrechtUniversity/oceanexplorer"><img align="center" src="/img/featured_1.svg" width="280" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/snijderlab/stitch"><img align="center" src="/img/featured_2.svg" width="280" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcelRobeer/ContrastiveExplanation"><img align="center" src="/img/featured_3.svg" width="280" ></a></p>
