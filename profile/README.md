@@ -34,6 +34,13 @@ Every year, researchers at Utrecht University publish thousands of scientific re
 
 <!-- END FEATURED -->
 
+<details>
+	<summary>How can I have my project featured?</summary>
+
+	Add you project to the [Awesome Utrecht University](https://github.com/UtrechtUniversity/awesome-utrecht-university) list. Every 2 weeks, 3 random projects are selected and featured.
+</details>
+
+
 ### Contributing
 
 At Utrecht University, we love :yellow_heart: Open Science. This means that we are welcoming contributions to our projects at Utrecht University. Are you interested in contributing? Cool! Do you need help? We can help you get started! Open source software is made by people just like you. Learn more about [how to contribute](https://opensource.guide/).
