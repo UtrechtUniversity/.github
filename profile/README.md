@@ -27,10 +27,23 @@ Every year, researchers at Utrecht University publish thousands of scientific re
 - [GitHub@UtrechtUniversity](https://github.com/orgs/UtrechtUniversity/repositories) - A list of projects published on GitHub.com/UtrechtUniversity.
 - [Awesome Utrecht University](https://github.com/UtrechtUniversity/awesome-utrecht-university) - A curated list of "awesome" projects conducted at Utrecht University.
 - [GitHub topics](https://github.com/topics/utrecht-university) - Check out our GitHub topic [#utrecht-university](https://github.com/topics/utrecht-university)
-
+#### Featured projects this week
 <!-- START FEATURED -->
 
+<p align="center"><a href="https://github.com/UtrechtUniversity/oceanexplorer"><img align="center" src="/img/featured_1.svg" width="280" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/snijderlab/stitch"><img align="center" src="/img/featured_2.svg" width="280" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcelRobeer/ContrastiveExplanation"><img align="center" src="/img/featured_3.svg" width="280" ></a></p>
+
 <!-- END FEATURED -->
+
+<details>
+	<summary align="center">These are featured projects. How can I have my project featured?</summary>
+	<br>
+	<ul>
+	<p>
+		Add you project to the <a href="https://github.com/UtrechtUniversity/awesome-utrecht-university">Awesome Utrecht University</a> list. Every week, 3 random projects are selected and featured.
+	</p>
+	</ul>
+</details>
+
 
 ### Contributing
 

@@ -1,7 +1,7 @@
 name: "Update featured projects"
 on:
   schedule:
-    - cron:  '42 6 1,15 * *'
+    - cron:  '42 6 * * MON'
   push:
     branches:
       - master
@@ -17,13 +17,10 @@ jobs:
           python-version: '3.8'
       - name: Install Python dependencies
         run: |
-          pip install requests
+          pip install requests jinja2
       - name: Parse https://github.com/UtrechtUniversity/awesome-utrecht-university
         run: |
           python scripts/parse_awesome.py
-      - name: Update README
-        run: |
-          python scripts/update_readme.py
       - name: Commit files
         run: |
           git config --local user.email "github@uu.nl"
