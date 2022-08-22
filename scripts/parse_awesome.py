@@ -47,7 +47,7 @@ def create_html(url_list, width=CARD_WIDTH):
     html_images = []
     for i, url in enumerate(url_list):
         html_images.append(
-            f'<a float="center" href="{url}"><img src="/img/featured_{i+1}.svg" width="{width}" ></a>'
+            f'<a href="{url}"><img float="center" src="/img/featured_{i+1}.svg" width="{width}" ></a>'
         )
 
     return '<p float="center">' + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".join(html_images) + "</p>"
