@@ -43,15 +43,14 @@ def create_svg(idx, repo, owner):
 
 
 def create_html(url_list, width=CARD_WIDTH):
-    html_block = '<p float="left">'
 
+    html_images = []
     for i, url in enumerate(url_list):
-        html_block += (
-            f'<a href="{url}"><img src="/img/featured_{i+1}.svg" width="{width}" ></a>'
+        html_images.append(
+            f'<a float="center" href="{url}"><img src="/img/featured_{i+1}.svg" width="{width}" ></a>'
         )
 
-    html_block += "</p>"
-    return html_block
+    return '<p float="center">' + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".join(html_images) + "</p>"
 
 
 def update_readme(html_block):
