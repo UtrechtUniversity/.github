@@ -7,7 +7,7 @@ import requests
 from jinja2 import Template
 
 NUMBER_OF_CARDS = 3
-CARD_WIDTH = 280
+CARD_WIDTH = 260
 README_URL = "https://raw.githubusercontent.com/UtrechtUniversity/awesome-utrecht-university/main/README.md"
 
 
