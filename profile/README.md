@@ -36,8 +36,11 @@ Every year, researchers at Utrecht University publish thousands of scientific re
 
 <details>
 	<summary>How can I have my project featured?</summary>
-
-	Add you project to the [Awesome Utrecht University](https://github.com/UtrechtUniversity/awesome-utrecht-university) list. Every 2 weeks, 3 random projects are selected and featured.
+	<ul>
+	<p>
+		Add you project to the [Awesome Utrecht University](https://github.com/UtrechtUniversity/awesome-utrecht-university) list. Every 2 weeks, 3 random projects are selected and featured.
+	</p>
+	</ul>
 </details>
 
 
