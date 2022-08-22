@@ -30,7 +30,7 @@ Every year, researchers at Utrecht University publish thousands of scientific re
 
 <!-- START FEATURED -->
 
-<p float="center"><a href="https://github.com/UtrechtUniversity/oceanexplorer"><img float="center" src="/img/featured_1.svg" width="280" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/snijderlab/stitch"><img float="center" src="/img/featured_2.svg" width="280" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcelRobeer/ContrastiveExplanation"><img float="center" src="/img/featured_3.svg" width="280" ></a></p>
+<p align="center"><a href="https://github.com/UtrechtUniversity/oceanexplorer"><img align="center" src="/img/featured_1.svg" width="280" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/snijderlab/stitch"><img align="center" src="/img/featured_2.svg" width="280" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcelRobeer/ContrastiveExplanation"><img align="center" src="/img/featured_3.svg" width="280" ></a></p>
 
 <!-- END FEATURED -->
 
