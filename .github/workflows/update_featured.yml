@@ -1,7 +1,7 @@
 name: "Update featured projects"
 on:
   schedule:
-    - cron:  '42 6 1,15 * *'
+    - cron:  '42 6 * * MON'
   push:
     branches:
       - master
