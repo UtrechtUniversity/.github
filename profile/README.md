@@ -39,7 +39,7 @@ Every year, researchers at Utrecht University publish thousands of scientific re
 	<br>
 	<ul>
 	<p>
-		Add you project to the <a href="https://github.com/UtrechtUniversity/awesome-utrecht-university">Awesome Utrecht University</a> list. Every week, 3 random projects are selected and featured.
+		Add you project to the <a href="https://github.com/UtrechtUniversity/awesome-utrecht-university">Awesome Utrecht University</a> list. Every week, 3 projects are randomly selected and featured.
 	</p>
 	</ul>
 </details>
