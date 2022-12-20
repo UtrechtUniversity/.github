@@ -20,6 +20,19 @@ Welcome at **GitHub@UtrechtUniversity**! At [Utrecht University](https://uu.nl),
 	</ul>
 </details>
 
+<details>
+	<summary>:key: I study at Utrecht University and want to use GitHub!</summary>
+	<br>
+	<ul>
+    <p>To apply for student benefits (<a href="https://education.github.com/pack">Student Developer pack</a>, <a href="https://docs.github.com/en/get-started/learning-about-github/githubs-products#github-pro">GitHub Pro</a> and <a href="https://docs.github.com/en/copilot">GitHub Copilot</a>) send an email to info.rdm@uu.nl.</p>
+    <p>
+      Do you have no experience with Git and GitHub? There are lots of resources on the internet to learn working with Git and GitHub. Check our <a href="https://github.com/UtrechtUniversity/best-practices">best practices repository</a>  as a starting point. 
+    </p>
+    <p>
+    Students are not eligible to become member of github.com/UtrechtUniversity, but can be invited as 'outside collaborators' to repositories to be able to collaborate in research projects. </p>
+	</ul>
+</details>
+
 ### Our projects
 
 Every year, researchers at Utrecht University publish thousands of scientific results via various outlets. Research code and software is published on **GitHub@UtrechtUniversity** as well as other locations such as scientific repositories and personal GitHub accounts. To find interesting code and software published by Utrecht University, have a look at:
