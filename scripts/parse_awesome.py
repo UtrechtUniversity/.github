@@ -27,7 +27,7 @@ def create_card(repo, owner):
         + "username=" + owner
         + "&repo=" + repo
         + "&show_owner=true&bg_color=FFCD00&title_color=000000)]"
-        + "(https://github.com/" + owner + "/" + repo ")"
+        + "(https://github.com/" + owner + "/" + repo + ")"
     )
     return card
 
