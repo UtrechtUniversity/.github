@@ -22,11 +22,13 @@ def get_repo_features(project):
 
 
 def create_card(repo, owner):
-    card = "[![Featured Project](https://github-readme-stats.vercel.app/api/pin/?"
-            + "username=" + owner
-            + "&repo=" + repo
-            + "&show_owner=true&bg_color=FFCD00&title_color=000000)]"
-            + "(https://github.com/" + owner + "/" + repo ")"
+    card = (
+        "[![Featured Project](https://github-readme-stats.vercel.app/api/pin/?"
+        + "username=" + owner
+        + "&repo=" + repo
+        + "&show_owner=true&bg_color=FFCD00&title_color=000000)]"
+        + "(https://github.com/" + owner + "/" + repo ")"
+    )
     return card
 
 
