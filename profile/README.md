@@ -43,7 +43,9 @@ Every year, researchers at Utrecht University publish thousands of scientific re
 #### Featured projects this week
 <!-- START FEATURED -->
 
-<p align="center"><a href="https://github.com/hugoquene/QMS-EN"><img align="center" src="/img/featured_1.svg" width="260" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/japhir/stdstats"><img align="center" src="/img/featured_2.svg" width="260" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://git.science.uu.nl/m.j.robeer/text_sensitivity"><img align="center" src="/img/featured_3.svg" width="260" ></a></p>
+[![Featured Project](https://github-readme-stats.vercel.app/api/pin/?username=UU-Hydro&repo=PCR-GLOBWB_model&show_owner=true&bg_color=FFCD00&title_color=000000)](https://github.com/UU-Hydro/PCR-GLOBWB_model)
+[![Featured Project](https://github-readme-stats.vercel.app/api/pin/?username=puregome&repo=notebooks&show_owner=true&bg_color=FFCD00&title_color=000000)](https://github.com/puregome/notebooks)
+
 
 <!-- END FEATURED -->
 

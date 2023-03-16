@@ -21,7 +21,7 @@ def get_repo_features(project):
     return git_org, repo, link
 
 
-def create_card(repo, owner):
+def create_card(owner, repo):
     card = (
         "[![Featured Project](https://github-readme-stats.vercel.app/api/pin/?"
         + "username=" + owner

@@ -5,13 +5,12 @@ on:
   push:
     branches:
       - master
-      - repocards
 
 jobs:
   download:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repocards
+      - name: Checkout master
         uses: actions/checkout@v2
       - uses: actions/setup-python@v1
         with:
