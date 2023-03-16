@@ -43,9 +43,10 @@ Every year, researchers at Utrecht University publish thousands of scientific re
 #### Featured projects this week
 <!-- START FEATURED -->
 
-[![Featured Project](https://github-readme-stats.vercel.app/api/pin/?username=UU-Hydro&repo=PCR-GLOBWB_model&show_owner=true&bg_color=FFCD00&title_color=000000)](https://github.com/UU-Hydro/PCR-GLOBWB_model)
-[![Featured Project](https://github-readme-stats.vercel.app/api/pin/?username=puregome&repo=notebooks&show_owner=true&bg_color=FFCD00&title_color=000000)](https://github.com/puregome/notebooks)
-
+<p align="center">
+<a href="https://github.com/UU-Hydro/PCR-GLOBWB_model"><img height="180em" src="https://github-readme-stats.vercel.app/api/pin/?username=UU-Hydro&repo=PCR-GLOBWB_model&show_owner=true&bg_color=FFCD00&title_color=000000" align = "center"/></a>
+<a href="https://github.com/puregome/notebooks"><img height="180em" src="https://github-readme-stats.vercel.app/api/pin/?username=puregome&repo=notebooks&show_owner=true&bg_color=FFCD00&title_color=000000" align = "center"/></a>
+</p>
 
 <!-- END FEATURED -->
 

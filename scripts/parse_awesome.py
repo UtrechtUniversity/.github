@@ -23,16 +23,29 @@ def get_repo_features(project):
 
 def create_card(owner, repo):
     card = (
-        "[![Featured Project](https://github-readme-stats.vercel.app/api/pin/?"
+        "https://github-readme-stats.vercel.app/api/pin/?"
         + "username=" + owner
         + "&repo=" + repo
-        + "&show_owner=true&bg_color=FFCD00&title_color=000000)]"
-        + "(https://github.com/" + owner + "/" + repo + ")"
+        + "&show_owner=true&bg_color=FFCD00&title_color=000000"
     )
     return card
 
 
-def update_readme(featured_projects):
+def create_html(featured_projects, urls):
+    html = ""
+    for idx, item in enumerate(featured_projects):
+        html = (
+            html
+            + '<a href="'
+            + urls[idx]
+            + '"><img height="180em" src="'
+            + item
+            + '" align = "center"/></a>\n'
+        )
+    return '<p align="center">\n' + html + '</p>'
+
+
+def update_readme(html_block):
     with open(Path("profile", "README.md")) as f_read:
         readme = f_read.read()
         readme_top = readme.split("<!-- START FEATURED -->")[0]
@@ -40,8 +53,7 @@ def update_readme(featured_projects):
         readme_new = (
             readme_top
             + "<!-- START FEATURED -->\n\n"
-            + featured_projects[0] + "\n"
-            + featured_projects[1] + "\n"
+            + html_block
             + "\n\n<!-- END FEATURED -->"
             + readme_bottom
         )
@@ -61,14 +73,17 @@ def main():
     selection = random.sample(projects, k=NUMBER_OF_CARDS)
 
     featured_projects = []
+    urls = []
 
     for idx, item in enumerate(selection):
 
         git_org, repo, link = get_repo_features(item)
         
         featured_projects.append(create_card(git_org, repo))
+        urls.append(link)
 
-    update_readme(featured_projects)
+    html_block = create_html(featured_projects, urls)
+    update_readme(html_block)
 
 
 if __name__ == "__main__":
