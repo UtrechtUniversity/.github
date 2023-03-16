@@ -30,7 +30,7 @@ jobs:
           git commit -m "Update organisation README"
         continue-on-error: true
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@repocards
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
         continue-on-error: true
