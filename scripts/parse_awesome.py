@@ -6,8 +6,7 @@ from pathlib import Path
 import requests
 from jinja2 import Template
 
-NUMBER_OF_CARDS = 3
-CARD_WIDTH = 260
+NUMBER_OF_CARDS = 2
 README_URL = "https://raw.githubusercontent.com/UtrechtUniversity/awesome-utrecht-university/main/README.md"
 
 
@@ -22,38 +21,16 @@ def get_repo_features(project):
     return git_org, repo, link
 
 
-def create_svg(idx, repo, owner):
-
-    with open(Path("scripts", "featured_template.svg")) as f:
-        template = Template(f.read())
-
-    text_size = 74
-    if len(repo) > 14:
-        text_size = 50
-    if len(repo) > 24:
-        text_size = 32
-    if len(repo) > 36:
-        text_size = 24
-
-    if len(repo) > 50:
-        repo = repo[0:48] + "..."
-
-    with open(Path("img", f"featured_{idx}.svg"), "w") as f:
-        f.write(template.render(idx=idx, repo=repo, owner=owner, text_size=text_size))
+def create_card(repo, owner):
+    card = "[![Featured Project](https://github-readme-stats.vercel.app/api/pin/?"
+            "username=" + owner +
+            "&repo=" + repo +
+            "&show_owner=true&bg_color=FFCD00&title_color=000000)]" + 
+            "(https://github.com/" + owner + "/" + repo ")"
+    return card
 
 
-def create_html(url_list, width=CARD_WIDTH):
-
-    html_images = []
-    for i, url in enumerate(url_list):
-        html_images.append(
-            f'<a href="{url}"><img align="center" src="/img/featured_{i+1}.svg" width="{width}" ></a>'
-        )
-
-    return '<p align="center">' + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".join(html_images) + "</p>"
-
-
-def update_readme(html_block):
+def update_readme(featured_projects):
     with open(Path("profile", "README.md")) as f_read:
         readme = f_read.read()
         readme_top = readme.split("<!-- START FEATURED -->")[0]
@@ -61,7 +38,8 @@ def update_readme(html_block):
         readme_new = (
             readme_top
             + "<!-- START FEATURED -->\n\n"
-            + html_block
+            + featured_projects[0] + "\n"
+            + featured_projects[1] + "\n"
             + "\n\n<!-- END FEATURED -->"
             + readme_bottom
         )
@@ -80,18 +58,15 @@ def main():
     random.seed((datetime.datetime.utcnow() - datetime.datetime(1970, 1, 1)).days)
     selection = random.sample(projects, k=NUMBER_OF_CARDS)
 
-    url_list = []
+    featured_projects = []
 
     for idx, item in enumerate(selection):
 
         git_org, repo, link = get_repo_features(item)
-        url_list.append(str(link))
+        
+        featured_projects.append(create_card(git_org, repo))
 
-        create_svg(idx + 1, repo, git_org)
-
-    html_block = create_html(url_list, width=CARD_WIDTH)
-
-    update_readme(html_block)
+    update_readme(featured_projects)
 
 
 if __name__ == "__main__":
