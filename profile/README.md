@@ -43,7 +43,7 @@ Every year, researchers at Utrecht University publish thousands of scientific re
 #### Featured projects this week
 <!-- START FEATURED -->
 
-<p align="center"><a href="https://github.com/alexandrosstergiou/SoftPool"><img align="center" src="/img/featured_1.svg" width="260" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/D-score/childdevdata"><img align="center" src="/img/featured_2.svg" width="260" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/pcraster/pcraster"><img align="center" src="/img/featured_3.svg" width="260" ></a></p>
+<p align="center"><a href="https://github.com/SanliFaez/labphew"><img align="center" src="/img/featured_1.svg" width="260" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/OceanParcels/parcels"><img align="center" src="/img/featured_2.svg" width="260" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/J535D165/CoronaWatchNL"><img align="center" src="/img/featured_3.svg" width="260" ></a></p>
 
 <!-- END FEATURED -->
 
