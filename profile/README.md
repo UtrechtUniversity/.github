@@ -15,8 +15,11 @@ Welcome at **GitHub@UtrechtUniversity**! At [Utrecht University](https://uu.nl),
     <p>The <b>GitHub@UtrechtUniversity</b> is open to all researchers, teachers, and employees of Utrecht University. You can get access with your Utrecht University SolisID. Step-by-step instructions can be found in the <a href="https://github.com/utrechtuniversity/getting-started">Getting Started with GitHub@UtrechtUniversity</a> guide.
     </p>
     <p>
-      Do you have no experience with Git and GitHub? There are lots of resources on the internet to learn working with Git and GitHub. Do you prefer a workshop? The workshop <a href="https://www.uu.nl/en/research/research-data-management/training-workshops/best-practices-for-writing-reproducible-code">Best Practices for Writing Reproducible Code</a> of the <a href="https://www.uu.nl/en/research/research-data-management">Research Data Management Support</a> office is a great starting point.
+      Do you have no experience with Git and GitHub? There are lots of resources on the internet to <a href="https://github.com/UtrechtUniversity/getting-started#learning-git">learn working with Git and GitHub</a>. Do you prefer a workshop? The workshop <a href="https://www.uu.nl/en/research/research-data-management/training-workshops/best-practices-for-writing-reproducible-code">Best Practices for Writing Reproducible Code</a> of the <a href="https://www.uu.nl/en/research/research-data-management">Research Data Management Support</a> office is a great starting point.
     </p>
+    <p>
+     The GitHub Education program provides benefits (free developer tools such as GitHub Copilot) for students and teachers. Are you a PhD candidate? You can request a Student Developer pack by sending an email to info.rdm@uu.nl. Postdoctoral researchers and permanent staff may apply for teacher benefits via <a href="https://education.github.com/teachers">GitHub Education</a>.
+    </p>		
 	</ul>
 </details>
 
