@@ -12,7 +12,7 @@ Welcome at **GitHub@UtrechtUniversity**! At [Utrecht University](https://uu.nl),
 	<summary>:key: I work at Utrecht University and want access!</summary>
 	<br>
 	<ul>
-    <p>The <b>GitHub@UtrechtUniversity</b> is open to all researchers, teachers, and employees of Utrecht University. You can get access with your Utrecht University SolisID. Step-by-step instructions can be found in the <a href="https://github.com/utrechtuniversity/getting-started">Getting Started with GitHub@UtrechtUniversity</a> guide.
+    <p>The <b>GitHub@UtrechtUniversity</b> is open to all researchers, teachers, and employees of Utrecht University. You can get access with your Utrecht University SolisID. After becoming a member you can create <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories">Repositories</a> and <a href="https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams">Teams</a> under the UU GitHub organization. Step-by-step instructions can be found in the <a href="https://github.com/utrechtuniversity/getting-started">Getting Started with GitHub@UtrechtUniversity</a> guide.
     </p>
     <p>
       Do you have no experience with Git and GitHub? There are lots of resources on the internet to <a href="https://github.com/UtrechtUniversity/getting-started#learning-git">learn working with Git and GitHub</a>. Do you prefer a workshop? The workshop <a href="https://www.uu.nl/en/research/research-data-management/training-workshops/best-practices-for-writing-reproducible-code">Best Practices for Writing Reproducible Code</a> of the <a href="https://www.uu.nl/en/research/research-data-management">Research Data Management Support</a> office is a great starting point.
@@ -32,7 +32,7 @@ Welcome at **GitHub@UtrechtUniversity**! At [Utrecht University](https://uu.nl),
       Do you have no experience with Git and GitHub? There are lots of resources on the internet to learn working with Git and GitHub. Check our <a href="https://github.com/UtrechtUniversity/best-practices">best practices repository</a>  as a starting point. 
     </p>
     <p>
-    Students are not eligible to become member of github.com/UtrechtUniversity, but can be invited as 'outside collaborators' to repositories to be able to collaborate in research projects. </p>
+    Students are not eligible to become a full member of github.com/UtrechtUniversity, but can be invited as 'outside collaborators' to project <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories">Repositories</a> by repository admins (e.g. the creator of a repository). Repository admins can grant students full access to the repository including <a href="https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization">write and admin permissions</a>, when required. </p>
 	</ul>
 </details>
 
