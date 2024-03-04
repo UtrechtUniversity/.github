@@ -7,13 +7,13 @@
 	.st1{opacity:0.21;fill:#FFFFFF;enable-background:new    ;}
 	.st2{font-family:'Arial';}
 	.st3{font-size:24px;}
-	.st4{font-size:74px;}
+	.st4{font-size:50px;}
 	.st5{font-size:32px;}
 </style>
 <path id="b" class="st0" d="M22.4,0.5h556.1c12.1,0,21.9,8.8,21.9,19.6v240.7c0,10.8-9.8,19.6-21.9,19.6H22.4
 	c-12.1,0-21.9-8.8-21.9-19.6V20.1C0.5,9.3,10.3,0.5,22.4,0.5z"/>
 <ellipse class="st1" cx="124.5" cy="244.9" rx="352.3" ry="254.4"/>
 <text transform="matrix(1 0 0 1 440 36)" class="st2 st3">Featured #2</text>
-<text transform="matrix(1 0 0 1 43.92 168.01)" class="st2 st4">pcraster</text>
-<text transform="matrix(1 0 0 1 43.92 211.97)" class="st2 st5">pcraster</text>
+<text transform="matrix(1 0 0 1 43.92 168.01)" class="st2 st4">PCR-GLOBWB_model</text>
+<text transform="matrix(1 0 0 1 43.92 211.97)" class="st2 st5">UU-Hydro</text>
 </svg>
