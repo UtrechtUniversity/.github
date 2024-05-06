@@ -46,7 +46,7 @@ Every year, researchers at Utrecht University publish thousands of scientific re
 #### Featured projects this week
 <!-- START FEATURED -->
 
-<p align="center"><a href="https://github.com/japhir/stdstats"><img align="center" src="/img/featured_1.svg" width="260" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/J535D165/recordlinkage"><img align="center" src="/img/featured_2.svg" width="260" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/CLARIAH"><img align="center" src="/img/featured_3.svg" width="260" ></a></p>
+<p align="center"><a href="https://github.com/MindTheGap-ERC/DarwinCAT"><img align="center" src="/img/featured_1.svg" width="260" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/puregome/notebooks"><img align="center" src="/img/featured_2.svg" width="260" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/nielsjdewinter/DA_model"><img align="center" src="/img/featured_3.svg" width="260" ></a></p>
 
 <!-- END FEATURED -->
 
