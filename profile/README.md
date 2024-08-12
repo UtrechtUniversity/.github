@@ -27,7 +27,7 @@ Welcome at **GitHub@UtrechtUniversity**! At [Utrecht University](https://uu.nl),
 	<summary>:key: I study at Utrecht University and want to use GitHub!</summary>
 	<br>
 	<ul>
-    <p>To apply for student benefits (<a href="https://education.github.com/pack">Student Developer pack</a>, <a href="https://docs.github.com/en/get-started/learning-about-github/githubs-products#github-pro">GitHub Pro</a> and <a href="https://docs.github.com/en/copilot">GitHub Copilot</a>) send an email to info.rdm@uu.nl.</p>
+    <p>To apply for student benefits (<a href="https://github.com/education/students">Student Developer pack</a>, <a href="https://docs.github.com/en/get-started/learning-about-github/githubs-products#github-pro">GitHub Pro</a> and <a href="https://docs.github.com/en/copilot">GitHub Copilot</a>), request your Student Developer pack directly via <a href="https://github.com/education/students">GitHub Education</a>.</p>
     <p>
       Do you have no experience with Git and GitHub? There are lots of resources on the internet to learn working with Git and GitHub. Check our <a href="https://github.com/UtrechtUniversity/best-practices">best practices repository</a>  as a starting point. 
     </p>
